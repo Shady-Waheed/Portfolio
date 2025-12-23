@@ -636,3 +636,36 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .newsletter-bx {
+    padding: 40px 20px;
+    margin-top: -60px;
+  }
+
+  .newsletter-bx h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .new-email-bx {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .new-email-bx input,
+  .new-email-bx button {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .footer img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .footer p {
+    text-align: center;
+  }
+}
