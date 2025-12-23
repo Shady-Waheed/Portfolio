@@ -26,3 +26,25 @@ It includes featured projects, technologies I use, and contact information.
 
 
 ## 📂 Folder Structure
+portfolio/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── assets/
+│   ├── components/
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── package.json
+├── package-lock.json
+├── README.md
