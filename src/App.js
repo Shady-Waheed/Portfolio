@@ -7,6 +7,7 @@ import { Projects } from "./components/Projects";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <SpeedInsights/>
     </div>
   );
 }
