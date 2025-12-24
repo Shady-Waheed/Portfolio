@@ -56,7 +56,7 @@ export const Projects = () => {
       imgUrl: raheeq,
     },
     {
-      title: "Zulfa insttute",
+      title: "Zulfa institute",
       description: "WordPress Website",
       imgUrl: zulfa,
     },
@@ -69,11 +69,7 @@ export const Projects = () => {
           <Col>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__bounce" : ""
-                  }
-                >
+                <div>
                   <h2>Projects</h2>
                   <p>
                     In this section, you’ll find a collection of projects I’ve
